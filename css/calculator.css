@@ -1,0 +1,152 @@
+* html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(https://img.freepik.com/premium-photo/cute-dog-puppy-illustration-background-wallpaper-design-colorful-animal-pets_877869-5546.jpg?w=900);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    font-family: Elnath;
+    padding: 10px;
+    gap: 12px;
+    background-color: #ffffff3f;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container label {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container input {
+    padding: 10px;
+    font-size: 14px;
+    font-family: Comic Sans Ms;
+}
+
+.container button {
+    padding: 10px;
+    font-family: Elnath;
+    font-size: 14px;
+}
+
+.container button:hover {
+    background: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container h5 {
+    font-size: 20px;
+}
+
+#Result {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+@font-face {
+    font-family: Elnath;
+    src: url(../fonts/elnath.ttf);
+}
+
+@media screen and (max-width: 530px) {
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .container label {
+        font-size: 15px;
+    }
+
+    .container h5 {
+        font-size: 15px;
+    }
+
+    .container input {
+        font-size: 10px;
+    }
+
+    .container button {
+        font-size: 10px;
+    }
+
+    #Result {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 396px) {
+    .container h1 {
+        font-size : 18px
+    }
+
+    .container label {
+        font-size: 13px;
+    }
+
+    .container h5 {
+        font-size: 13px;
+    }
+
+    .container input {
+        font-size: 8px;
+    }
+
+    .container button {
+        font-size: 8px;
+    }
+
+    #Result {
+        font-size: 10px;
+    }
+}
+
+@media  screen and (max-width: 258px) {
+    .container h1 {
+        font-size : 13px
+    }
+
+    .container label {
+        font-size: 10px;
+    }
+
+    .container h5 {
+        font-size: 11px;
+    }
+
+    .container input {
+        font-size: 6px;
+    }
+
+    .container button {
+        font-size: 6px;
+    }
+
+    #Result {
+        font-size: 8px;
+    }
+}
